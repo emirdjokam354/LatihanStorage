@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/createFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Buat File"/>
+    <Button
+        android:id="@+id/readFile"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read File"/>
+    <Button
+        android:id="@+id/editFile"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ubah File"/>
+    <Button
+        android:id="@+id/deleteFile"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete File"/>
+
+    <TextView
+        android:id="@+id/txtFile"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@android:color/darker_gray"
+        android:gravity="top|left"
+        android:padding="5dp"
+        android:textColorHint="#000"
+        android:inputType="textMultiLine"
+        android:hint="Hasil baca file..."/>
+
+
+
+
+</LinearLayout>

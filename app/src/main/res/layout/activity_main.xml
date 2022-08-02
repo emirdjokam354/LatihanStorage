@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="normal|bold"
+        android:layout_marginTop="80dp"
+        android:text="Latihan Persistance" />
+
+    <Button
+        android:id="@+id/btnInternal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_margin="25dp"
+        android:text="internal storage"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnExternal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_marginTop="-15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="external storage"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
